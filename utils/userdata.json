@@ -1,0 +1,18 @@
+[{
+    "username":"standard_user",
+    "password":"secret_sauce",
+    "productname" : "Sauce Labs Bike Light",
+    "fname":"Aadith",
+    "lname":"Vijay",
+    "postal":"560048"
+
+},
+{
+    "username":"standard_user",
+    "password":"secret_sauce",
+    "productname" : "Sauce Labs Backpack",
+    "fname":"Helen",
+    "lname":"will",
+    "postal":"600121"
+
+}]

@@ -1,0 +1,26 @@
+{
+  "name": "playwright1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "headed":"npx playwright test --headed",
+    "ui":"npx playwright test --ui",
+    "config":"npx playwright test --config playwright1.config.js",
+    "chrome":"npx playwright test --config playwright1.config.js --chrome",
+    "webtag":"npx playwright test -grep @web"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
