@@ -1,5 +1,5 @@
 import test from "@playwright/test";
-test.describe.parallel('parallel test executio',()=>{
+test.describe.parallel('parallel test execution',()=>{
 test('frameHandling',async({page})=>{
 await page.goto('https://demoqa.com/frames')
 const framepage=page.frameLocator('#frame1')
