@@ -18,6 +18,10 @@ export default defineConfig({
   expect:{
     timeout:50*1000,
   },
+  reporter:[
+    ['list'],
+    ['allure-playwright']
+  ],
  
   use: {
    headless:false
