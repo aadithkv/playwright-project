@@ -63,7 +63,7 @@ test('Put request update entire user',async({request})=>{
             
 })
 
-test.only('Delete',async({request})=>{
+test('Delete',async({request})=>{
     const response=await request.delete('https://jsonplaceholder.typicode.com/users/1')
     expect(response.status()).toBe(200)
    console.log('User Deleted')
