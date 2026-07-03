@@ -8,7 +8,7 @@
     "headed": "npx playwright test --headed",
     "ui": "npx playwright test --ui",
     "config": "npx playwright test --config playwright1.config.js",
-    "chrome": "npx playwright test --config playwright1.config.js --chrome",
+    "chrome": "npx playwright test --config playwright1.config.js --project=chrome",
     "webtag": "npx playwright test --grep @web"
   },
   "keywords": [],

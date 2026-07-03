@@ -42,5 +42,5 @@ const lname=page.locator('//input[@data-test="lastName"]')
    const header= await page.locator('.complete-header').textContent()
    console.log(header)
   
-      await page.pause()
+      
 })

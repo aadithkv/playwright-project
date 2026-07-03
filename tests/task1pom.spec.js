@@ -35,6 +35,6 @@ await login.navigatePage()
     await val.lastPageVerification()
 
 
-    await page.pause()
+    
 })
 }

@@ -16,6 +16,6 @@ test('special',async({page})=>{
     await page.getByRole("button",{name:"Show Selected Value"}).click()
     const message= page.getByText(/'Male' is/)
     await expect(message).toBeVisible()
-    await page.pause()
+   
 
 })

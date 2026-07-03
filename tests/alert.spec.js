@@ -31,6 +31,6 @@ newPage.close()
 
      await button.click()
    
-     await page.pause()
+     
 
 })

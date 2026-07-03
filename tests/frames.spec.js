@@ -4,7 +4,7 @@ test('frameHandling',async({page})=>{
 await page.goto('https://demoqa.com/frames')
 const framepage=page.frameLocator('#frame1')
 console.log(await framepage.locator('#sampleHeading').textContent())
-await page.pause()
+
 })
 
 test('@web mousehover',async({page})=>{
